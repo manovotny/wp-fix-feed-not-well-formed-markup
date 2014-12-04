@@ -70,7 +70,14 @@ class WP_Fix_Feed_Not_Well_Formed_Markup {
 
     function fix_feed_content( $content ) {
 
-        return str_replace( '&lt;/', '&lt;&#47;', $content );
+        $less_than_encode = '&lt;';
+        $less_than_numeric_encode = '&#60;';
+        $slash_encode = '&#47;';
+
+        $feed_content = str_replace( $less_than_encode . '/', $less_than_encode . $slash_encode, $content );
+        $feed_content = str_replace( $less_than_numeric_encode . '/', $less_than_numeric_encode . $slash_encode, $feed_content );
+
+        return $feed_content;
 
     }
 }
