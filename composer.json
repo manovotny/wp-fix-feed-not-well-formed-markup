@@ -1,0 +1,41 @@
+{
+    "name": "manovotny/wp-fix-feed-not-well-formed-markup",
+    "version": "0.0.0",
+    "description": "Fixes WordPress not properly encoding markup when displayed in a feed.",
+    "type": "project",
+    "homepage": "https://github.com/manovotny/wp-fix-feed-not-well-formed-markup",
+    "authors": [
+        {
+            "name": "Michael Novotny",
+            "email": "manovotny@gmail.com",
+            "homepage": "http://manovotny.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-3.0+",
+    "keywords": [
+        "wordpress"
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "manovotny/wp-phpunit-helpers": "~1.0",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "files": [
+            "wp-fix-feed-not-well-formed-markup.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "vendor/phpunit",
+            "vendor/sebastian",
+            "vendor/symfony"
+        ]
+    }
+}
