@@ -28,7 +28,7 @@ module.exports = (function () {
             slug: 'wp-fix-feed-not-well-formed-markup',
             type: 'plugin', // Should be `plugin` or `theme`.
             url: 'https://github.com/manovotny/wp-fix-feed-not-well-formed-markup',
-            version: '0.0.0'
+            version: '1.0.0'
         }
     };
 

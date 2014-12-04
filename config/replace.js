@@ -19,7 +19,7 @@ module.exports = (function () {
             name: 'WP Fix Feed Not Well-Formed Markup',
             slug: 'wp-fix-feed-not-well-formed-markup',
             url: 'https://github.com/manovotny/wp-fix-feed-not-well-formed-markup',
-            version: '0.0.0'
+            version: '1.0.0'
         },
         translations: {
             domain: 'wp-fix-feed-not-well-formed-markup',

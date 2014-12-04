@@ -1,6 +1,6 @@
 {
     "name": "wp-fix-feed-not-well-formed-markup",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Fixes WordPress not properly encoding markup when displayed in a feed.",
     "author": "Michael Novotny <http://manovotny.com>",
     "repository": {
